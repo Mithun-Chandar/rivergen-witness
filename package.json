@@ -1,0 +1,35 @@
+{
+  "name": "@rivergen/witness",
+  "version": "0.1.0",
+  "description": "Field continuity type contracts for RiverGen — DomainWitness interface and Layer runner shapes.",
+  "keywords": [
+    "realtime",
+    "witness",
+    "one-river",
+    "rivergen",
+    "field-continuity",
+    "typescript",
+    "websocket"
+  ],
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mithun-Chandar/rivergen-witness"
+  },
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./src/index.ts"
+    }
+  },
+  "main": "./src/index.ts",
+  "files": [
+    "src/"
+  ],
+  "peerDependencies": {
+    "typescript": ">=5"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
